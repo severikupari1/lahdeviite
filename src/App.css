@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+html, body {
+  height: 100%;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden; /* Add vertical scrollbar */
+}
+body {
+  margin: 0;
+}
